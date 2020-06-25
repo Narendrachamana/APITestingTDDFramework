@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6554" started-at="2020-06-16T10:08:36Z" finished-at="2020-06-16T10:08:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6554" started-at="2020-06-16T10:08:36Z" finished-at="2020-06-16T10:08:43Z">
+      <class name="com.APITestingFramework.Testcases.CreateCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.APITestingFramework.Testcases.CreateCustomerTest@4567f35d]" name="setUp" is-config="true" duration-ms="1227" started-at="2020-06-16T10:08:35Z" finished-at="2020-06-16T10:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateCustomerWithValidSecretKey(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.APITestingFramework.Testcases.CreateCustomerTest@4567f35d]" name="validateCreateCustomerWithValidSecretKey" duration-ms="5229" started-at="2020-06-16T10:08:36Z" data-provider="data" finished-at="2020-06-16T10:08:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[narendrakumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[first time creation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="validateCreateCustomerWithValidSecretKey(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.APITestingFramework.Testcases.CreateCustomerTest@4567f35d]" name="validateCreateCustomerWithValidSecretKey" duration-ms="1251" started-at="2020-06-16T10:08:41Z" data-provider="data" finished-at="2020-06-16T10:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[run2narendrakumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[narendra user creation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerWithValidSecretKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.APITestingFramework.Testcases.CreateCustomerTest@4567f35d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-16T10:08:43Z" finished-at="2020-06-16T10:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.APITestingFramework.Testcases.CreateCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
